@@ -107,7 +107,14 @@ button:hover {
     background-image: url(../img/hugo.jpeg);
     background-position: center;
     background-size: 100%;
+    text-align: center;
+    color: #ff0085;
+    display: flex;
+    justify-content: space-around;
     background-repeat: no-repeat;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 900;
 }
 
 .miguel {
@@ -116,6 +123,8 @@ button:hover {
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 40px;
+    text-align: center;
+    color: #ff0085;
 }
 
 .explotadamiguel {
@@ -123,6 +132,13 @@ button:hover {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    text-align: center;
+    color: #ff0085;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 900;
 }
 
 .explotada {

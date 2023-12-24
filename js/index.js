@@ -40,6 +40,7 @@ function colocarBombas() {
 
 function cambiarObjetivo(nombre) {
     objetivo = nombre;
+    document.getElementById("marco").className = "tablero explotada" + objetivo;
 }
 
 function colocarBandera(e) {
@@ -57,7 +58,8 @@ function revelar(e) {
     var bombasCerca = 0;
     if (casillas[casilla.id - 1].title == "1") {
         casilla.className = "casilla explotada" + objetivo;
-        console.log(e);
+        document.getElementById("marco").innerHTML = "Perdiste :(";
+        document.getElementById("marco").className = "tablero explotada" + objetivo;
     } else {
         if (casilla.id % tam == 1) {
             if (casilla.id / tam <= 1) {
