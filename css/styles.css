@@ -1,0 +1,168 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Poppins",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen-Sans,
+        Ubuntu,
+        Cantarell,
+        "Helvetica Neue",
+        sans-serif;
+
+    background-color: #d3ffde;
+    height: 100%;
+}
+
+.selected {
+    background-color: #ff0085 !important;
+    color: white !important;
+}
+
+.formulario {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    text-shadow: #004000 0.1em 0.1em 0.8em;
+}
+
+.tablero {
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0.3em 0.3em 0.8em #56939b;
+}
+
+button:hover {
+    background-color: #ff0085 !important;
+    color: white !important;
+}
+
+.tablero8 {
+    width: 100%;
+    height: 100%;
+    /*Disposición del tablero*/
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.tablero12 {
+    width: 100%;
+    height: 100%;
+
+    /*Disposición del tablero*/
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.tablero16 {
+    width: 100%;
+    height: 100%;
+
+    /*Disposición del tablero*/
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.tablero20 {
+    width: 100%;
+    height: 100%;
+
+    /*Disposición del tablero*/
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.casilla {
+    border-top: 1px solid #d6cfff;
+    border-left: 1px solid #d6cfff;
+    background-color: #ff0085;
+    color: #ff0085;
+    font-weight: 800;
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hugo {
+    background-image: url(../img/hugo.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+.explotadahugo {
+    background-image: url(../img/hugo.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.miguel {
+    background-image: url(../img/miguel.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+.explotadamiguel {
+    background-image: url(../img/miguel.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.explotada {
+    background-image: url(../img/bomba.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.bandera {
+    background-image: url(../img/bandera.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: #ffe99f;
+}
+
+.casilla:hover {
+    background-color: #ff008580;
+}
+
+.peligro0 {
+    background-color: white;
+}
+
+.peligro1 {
+    background-color: #ffbdc3;
+}
+
+.peligro2 {
+    background-color: #f38282;
+    color: white;
+}
+
+.peligro3 {
+    background-color: #ed2a2a;
+    color: white;
+}
+
+.peligro4 {
+    background-color: #ff0000;
+    color: white;
+}
